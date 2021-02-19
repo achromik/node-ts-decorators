@@ -6,3 +6,9 @@ export interface RouterConfigProps {
   path: string;
   server: Server;
 }
+
+export interface ErrorMessage {
+  message: string;
+  error?: string;
+  stack?: string;
+}
